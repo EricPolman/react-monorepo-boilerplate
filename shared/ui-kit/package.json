@@ -4,8 +4,8 @@
   "main": "src/index",
   "scripts": {
     "test": "jest",
-    "watch:tailwind": "postcss -w src/assets/base.css -o src/assets/tailwind.css",
-    "build:tailwind": "postcss src/assets/base.css -o src/assets/tailwind.css"
+    "watch:tailwind": "postcss -w src/assets/base.scss -o src/assets/tailwind.scss",
+    "build:tailwind": "postcss src/assets/base.scss -o src/assets/tailwind.scss"
   },
   "peerDependencies": {
     "@testing-library/react-hooks": "*",
@@ -14,9 +14,11 @@
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
-    "postcss-cli": "^8.3.1",
     "postcss": "^8.2.7",
+    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  }
 }
