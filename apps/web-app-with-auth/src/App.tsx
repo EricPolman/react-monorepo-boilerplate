@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import { Button } from "@shared/ui-kit";
+import { TextButton } from "@shared/ui-kit";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <div className="text-center">
-          <Button label="Test button" onClick={() => {}} />
+          <TextButton label="Test button" onClick={() => {}} />
         </div>
       </header>
     </div>
