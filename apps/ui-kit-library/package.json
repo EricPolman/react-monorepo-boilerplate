@@ -1,0 +1,49 @@
+{
+  "name": "ui-kit-library",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.34",
+    "@types/react": "^16.9.29",
+    "@types/react-dom": "^16.9.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@shared/ui-kit": "*"
+  },
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-knobs": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addons": "^6.1.21",
+    "@storybook/node-logger": "^6.1.21",
+    "@storybook/preset-create-react-app": "^3.1.6",
+    "@storybook/react": "^6.1.21",
+    "@storybook/theming": "^6.1.21",
+    "babel-loader": "8.1.0",
+    "react-docgen-typescript-loader": "^3.7.2"
+  }
+}
