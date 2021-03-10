@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "@shared/ui-kit/src/assets/tailwind.scss";
 
-import App from "./App";
+import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

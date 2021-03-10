@@ -8,7 +8,7 @@ const properties = {
 };
 export default properties;
 
-export const Primary = () => {
+export const Default = () => {
   const icon = text("Icon", "arrow-right");
   const options: Record<string, ColorType> = {
     Gray: "gray",

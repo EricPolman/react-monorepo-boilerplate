@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import { TextButton } from "@shared/ui-kit";
+import { IconButton, TextButton } from "@shared/ui-kit";
 
-function App() {
+export function App() {
   return (
     <div className="App bg-gray-800 h-screen w-full text-white">
       <header className="App-header w-1/2 mx-auto">
@@ -11,10 +11,9 @@ function App() {
         </p>
         <div className="text-center">
           <TextButton label="Test button" onClick={() => {}} />
+          <IconButton icon="arrow-right" onClick={() => {}} />
         </div>
       </header>
     </div>
   );
 }
-
-export default App;

@@ -20,6 +20,9 @@ addDecorator(withInfo({
         fontSize: '25px',
         borderBottom: '1px solid #EEE',
       },
+      pre: {
+        backgroundColor: '#303030',
+      }
     },
   }),
   propTablesExclude: [Layout]
