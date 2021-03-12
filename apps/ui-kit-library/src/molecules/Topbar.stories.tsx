@@ -2,13 +2,13 @@ import { Topbar } from "@shared/ui-kit";
 import { text, withKnobs } from "@storybook/addon-knobs";
 
 const properties = {
-  title: "Organisms/Topbar",
+  title: "Molecules/Topbar",
   decorators: [withKnobs],
 };
 export default properties;
 
 export const Default = () => {
-  const applicationName = text("Application name", "Polman Apps");
+  const applicationName = text("Application name", "Demo App");
   return (
     <>
       <div className="w-full mb-4">

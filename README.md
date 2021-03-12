@@ -1,4 +1,4 @@
-# TypeScript React Monorepository Boilerplate
+# TypeScript React Storybook Tailwind Lerna Monorepository Boilerplate
 
 This repository serves as boilerplate for setting up a React application as a mono repository, using Lerna and Yarn.
 
@@ -13,3 +13,7 @@ This boilerplate will provide a Business Logic package that implements a basic s
 The Applications folder will contain two React applications implementing the same business logic and UI Kit packages without having a relation between the packages. One of the applications will provide a boilerplate for an authenticated vs non-authenticated flow which I personally like to use.
 
 ESlint, Jest, and Prettier will also be available in this boilerplate.
+
+## Tailwind
+
+This repository uses Tailwind in the shared UI kit package. The Storybook application and the React application include the resulting SCSS file. If you want to make changes to the Tailwind config, you can use the "watch:tailwind" command to watch for changes.
